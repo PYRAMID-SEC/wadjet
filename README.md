@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="[assets/logo.png](https://github.com/ahmed-tarek22752/wadjet/blob/main/im.jpg)" alt="Wadjet logo" width="180"/>
+<img src="https://github.com/ahmed-tarek22752/wadjet/blob/main/im.jpg" alt="Wadjet logo" width="180"/>
 
 # Wadjet
 
