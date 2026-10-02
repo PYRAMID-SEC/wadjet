@@ -1,0 +1,10 @@
+id: echo-probe
+name: WebSocket probe response observed
+severity: low
+description: The endpoint returned the harmless Wadjet probe marker in a WebSocket response.
+request:
+  messages:
+    - '{"probe":"wadjet-rule-echo"}'
+matchers:
+  body-contains: wadjet-rule-echo
+remediation: Review the endpoint's expected behavior and ensure unauthenticated clients cannot access sensitive streams.

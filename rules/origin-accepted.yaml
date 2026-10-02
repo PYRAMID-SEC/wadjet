@@ -1,0 +1,10 @@
+id: origin-accepted
+name: Untrusted Origin accepted
+severity: high
+description: The endpoint accepted a WebSocket handshake carrying an untrusted Origin.
+request:
+  headers:
+    Origin: https://evil.example
+matchers:
+  status: 101
+remediation: Validate the Origin header against an explicit allowlist before upgrading.

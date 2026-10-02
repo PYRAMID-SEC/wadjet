@@ -1,0 +1,7 @@
+id: anonymous-access
+name: Anonymous WebSocket access
+severity: high
+description: The endpoint accepted a WebSocket handshake without credentials.
+matchers:
+  status: 101
+remediation: Require an authenticated identity before upgrading the connection.
