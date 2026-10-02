@@ -37,14 +37,14 @@ Named after the Egyptian cobra goddess who guards and watches over, Wadjet is bu
 
 ## Features
 
-- 🔍 **7 built-in checks** for common WebSocket weaknesses
-- 🧩 **YAML rule engine** to write your own checks without touching Go code
-- 📄 **JSON, Markdown and SARIF 2.1.0** reports, ready for GitHub code scanning
-- 🎨 **Color-coded terminal output** with a summary line
-- 🚦 **CI-friendly exit codes**: non-zero when a high-severity finding exists
-- 🛡️ **Non-destructive by design**: low volume, no exploitation, no data modification
-- 🧪 **Bundled vulnerable test server** (localhost only) for safe practice and integration tests
-- 📦 **Minimal dependencies**: cobra, gorilla/websocket, yaml.v3 and the standard library
+-  **7 built-in checks** for common WebSocket weaknesses
+-  **YAML rule engine** to write your own checks without touching Go code
+-  **JSON, Markdown and SARIF 2.1.0** reports, ready for GitHub code scanning
+-  **Color-coded terminal output** with a summary line
+-  **CI-friendly exit codes**: non-zero when a high-severity finding exists
+-  **Non-destructive by design**: low volume, no exploitation, no data modification
+-  **Bundled vulnerable test server** (localhost only) for safe practice and integration tests
+-  **Minimal dependencies**: cobra, gorilla/websocket, yaml.v3 and the standard library
 
 ## Installation
 
